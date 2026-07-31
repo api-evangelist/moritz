@@ -1,22 +1,77 @@
 aid: moritz
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/moritz.png
 name: Moritz
-description: Moritz is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Moritz is an AI-native law firm delivering commercial, corporate, and
+  employment legal work with same-day turnaround at transparent flat-rate
+  pricing. Founded in 2025 by Pamir Ehsas (former outside counsel to OpenAI and
+  Google) and Stefan Mandaric (ex-Fulbright scholar at MIT), the firm uses AI to
+  complete roughly 80% of the work (intake and first draft) with 50+ contracted
+  co-counsel lawyers finalizing every matter. Moritz operates across the EU, US,
+  and Australia and reports having supported more than 100 companies in closing
+  agreements representing over $2B in aggregate contract value. It is a
+  Y Combinator (Winter 2026) company that raised a $9M seed round backed by 20VC,
+  the Urban Innovation Fund, and 20 unicorn founders. Moritz is a legal-services
+  company; it does not currently publish a public API or developer program.
 url: https://raw.githubusercontent.com/api-evangelist/moritz/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
-x-tier: stub
-x-tier-reason: portfolio-lead
+- 20vc
+- urban-innovation-fund
+x-tier: profile
+x-tier-reason: enriched-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Legal
+- Legal Tech
+- Law Firm
+- Artificial Intelligence
+- AI
+- Contracts
+- Y Combinator
 apis: []
+common:
+- type: Website
+  url: https://www.moritzlegal.com/
+- type: Services
+  url: https://www.moritzlegal.com/services
+- type: Pricing
+  url: https://www.moritzlegal.com/pricing
+- type: Login
+  url: https://app.moritzlegal.com/
+- type: TermsOfService
+  url: https://www.moritzlegal.com/terms
+- type: PrivacyPolicy
+  url: https://www.moritzlegal.com/privacy
+- type: TrustCenter
+  url: security/moritz-trust-center.yml
+- type: Compliance
+  url: security/moritz-trust-center.yml
+- type: DomainSecurity
+  url: security/moritz-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1

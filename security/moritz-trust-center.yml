@@ -1,0 +1,29 @@
+aid: moritz-trust-center
+name: Moritz Trust Center
+type: TrustCenter
+generated: '2026-07-20'
+method: searched
+source: https://trust.moritzlegal.com/
+url: https://trust.moritzlegal.com/
+hosting: Vercel
+certifications:
+  - name: SOC 2 Type 2
+    status: compliant
+    label: 'SOC 2 Type 2 Compliant'
+  - name: ISO 27001
+    status: compliant
+    label: 'ISO 27001 Compliant'
+  - name: GDPR
+    status: compliant
+    label: 'GDPR Compliant'
+subprocessors:
+  count: 0   # trust center reports "0 Subprocessors" listed at time of probe
+  listed: []
+security_contact:
+  present: false   # no security contact / vulnerability disclosure surfaced on the portal
+notes: >-
+  Moritz publishes a dedicated Trust Center at trust.moritzlegal.com asserting
+  SOC 2 Type 2, ISO 27001, and GDPR compliance. As an AI-native law firm the
+  posture is oriented to client confidentiality and data protection rather than
+  a developer/API program. No vulnerability disclosure policy or security.txt
+  was found (see moritz-domain-security.yml).
