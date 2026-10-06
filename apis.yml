@@ -46,7 +46,7 @@ x-tier: profile
 x-tier-reason: enriched-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-10-06'
 tags:
 - Company
 - Legal
@@ -66,6 +66,8 @@ tags_raw:
 - Y Combinator
 apis: []
 common:
+- url: https://www.moritzlegal.com/blog
+  type: Blog
 - type: Website
   url: https://www.moritzlegal.com/
 - type: Services
