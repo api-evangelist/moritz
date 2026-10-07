@@ -66,6 +66,8 @@ tags_raw:
 - Y Combinator
 apis: []
 common:
+- type: Plans
+  url: plans/moritz-plans-pricing.yml
 - url: https://www.moritzlegal.com/blog
   type: Blog
 - type: Website
