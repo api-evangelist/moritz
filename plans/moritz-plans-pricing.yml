@@ -1,0 +1,53 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.moritzlegal.com/pricing
+sources:
+- https://www.moritzlegal.com/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: usage-other
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Flat per-document/per-matter legal service pricing, not an API. Prices stated upfront and fixed.
+plan_count: 5
+currency: USD
+plans:
+- name: Commercial contract, up to 25 pages, your paper
+  price_text: $750
+  price: 750
+  currency: USD
+  period: per-use
+  unit: per document/matter
+  included_quota: Up to 25 pages, your paper
+- name: Up to 25 pages third-party paper, or 25+ pages your paper
+  price_text: $1,500
+  price: 1500
+  currency: USD
+  period: per-use
+  unit: per document/matter
+- name: 25+ pages, third-party paper
+  price_text: $2,500
+  price: 2500
+  currency: USD
+  period: per-use
+  unit: per document/matter
+- name: Enterprise · For volume
+  price_text: Volume from $250 a matter.
+  price: 250
+  currency: USD
+  period: per-use
+  unit: per matter
+  included_quota: From draft to signature; unlimited revisions; strategic advice; dedicated team; product
+    compliance in EU, US and AUS; procurement offloading
+- name: Other matters
+  price_text: typically at 50% of standard market rates
+  price: 50
+  period: per-use
+  unit: per matter
